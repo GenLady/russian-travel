@@ -1,0 +1,19 @@
+.header__lang-link {
+  color: #fff;
+  margin: 0;
+  padding-bottom: 2px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+  display: flex;
+  align-items: flex-end;
+  list-style: none;
+  gap: 18px;
+}
+
+@media screen and (max-width: 550px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}
