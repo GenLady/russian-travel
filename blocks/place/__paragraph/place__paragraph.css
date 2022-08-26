@@ -3,41 +3,29 @@
   font-size: 18px;
   line-height: 1.6;
   margin: 0;
-  padding: 0;
-}
-
-.place__paragraph:last-child {
   padding-top: 26px;
 }
 
-.place__paragraph:only-child {
+.place__paragraph:first-child {
   padding-top: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .place__paragraph:last-child {
+  .place__paragraph {
     padding-top: 27px;
-  }
-  .place__paragraph:only-child {
-    padding-top: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
-  }
-  .place__paragraph:last-child {
     padding-top: 25px;
-  }
-  .place__paragraph:only-child {
-    padding-top: 0;
-  }
+}
 }
 
 @media screen and (max-width: 550px) {
   .place__paragraph {
     padding-left: 16px;
+    padding-right: 16px;
   }
 }
-

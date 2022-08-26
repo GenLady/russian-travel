@@ -1,0 +1,13 @@
+.page-content {
+  background-color: #2A2C2F;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}

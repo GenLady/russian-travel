@@ -9,7 +9,6 @@
   min-height: 740px;
   z-index: 0;
   text-decoration: none;
-  flex-wrap: nowrap;
 }
 
 .cover__link::before {
@@ -31,7 +30,6 @@
 @media screen and (max-width: 1024px) {
   .cover__link {
     min-height: 640px;
-    width: 100%;
     margin: 0;
   }
 }
@@ -42,7 +40,7 @@
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 550px) {
   .cover__link {
     min-height: 200px;
   }
